@@ -1,0 +1,81 @@
+@keyframes example {
+    from {background-color: darkred;}
+    to {background-color:black;}
+  }
+body{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    padding: 0%;
+}
+#all{
+    background-image: url(pic7.jpg);
+    background-repeat: repeat-x;
+    height: 100%;
+}
+
+#info{
+    padding: 2%;
+    color: wheat;
+    font-size: x-large;
+}
+h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;
+    padding-top: 3%;
+    margin: 0%;
+    font-size:50px;
+}
+#form{
+    border: 3px solid black;
+    margin: 0cm;
+    color:wheat;
+    font-size: large;
+}
+#submit{
+    color: black;
+}
+h2
+{
+    text-align: center;
+    color: wheat;
+}
+#video{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    float: left;
+  }
+  
+  nav a {
+    display: block;
+    padding: 8px;
+    background-color: black;
+    font-size: large;
+  }
+  @media screen and (max-width: 480px)
+  {
+      img{
+          display: none;
+      }
+  }
+  footer {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+  }
+  
