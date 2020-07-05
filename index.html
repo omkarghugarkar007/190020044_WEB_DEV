@@ -19,20 +19,27 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+<link rel="Stylesheet" href="index.css">
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="#info">Info</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#ambitions">Ambitions</a></li>
+            <li><a href="#sasha">Project</a></li>
+          </ul>
+    </nav>
+    <section id='all'>
     <header>
     <H1>
-        Omkar Ghugarkar
+        <marquee behavior="scroll" direction="left" scrollamount="12">My Name is Omkar Ghugarkar</marquee>
     </H1>
     </header>
-    <nav>
-
-    </nav>
     <div id='info'>
+        <center>
         <img src='pic1.jpg' alt="My Photo" width="400px" height="400px">
         <p id='education'>
             <i>
@@ -52,27 +59,23 @@
             <h2>
                 Ambition:
             </h2>
-            <ul type='square'>
-                <li>
-                    Machine Learning has always facinated me.
-                </li>
-                <li>
-                    Stock Market is my another intrest.
-                </li>
-                <li>
+
+                    Machine Learning has always facinated me.<br>
+                    Stock Market is my another intrest.<br>
                     Making India <b>"Aatma Nirbhar".</b>
-                </li>
-            </ul>
         </p>
         <p id="sasha">
             <h3>
-            I am currently working on my ITSP projetc under the name SASHA. Have a look at it. Hope you enjoy it.
+            I am currently working on my ITSP project under the name SASHA. Have a look at it. Hope you enjoy it.
             </h3>
             <a href='https://divyanshnatani.github.io/sasha/'>Link to my Current Project</a>
         </p>
     </div>
+</center>
+    </section>
     
     <div id='form'>
+        <center>
         If you want to view live demo of our project, contact us:
         <!--Publicity oF SASHA-->
         <form>
@@ -80,17 +83,25 @@
             <input type="text" id="name" name="name" pattern="[a-z]{3-20}" required><br>
             <label>Email:<input type="password" name="email"></label><br>
             <label for="Birth">BirthDate</label>
+            <div id='submit'>
             <input type="date" id="Birth" value="Birth"><br>
             <input type="submit" value="click Here">
+            </div>
         </form>
+        </center>
     </div>
     <section id='video'>
-        <p>
-            <h2>Be insane</h2>
-        </p>
         <iframe width="420" height="315"
-            src='https://www.youtube.com/embed/tgbNymZ7vqY?controls=0'>
+            src='https://youtube.com/embed/FZR_FcvPP1w?controls=0'>
         </iframe>
     </section>
-    
+    <footer>
+        “The end is the beginning, and the beginning is the end”
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+   src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+   </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
