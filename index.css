@@ -61,6 +61,8 @@ ul {
   }
   
   nav a {
+    size = 3cm
+    color: white;
     display: block;
     padding: 8px;
     background-color: black;
